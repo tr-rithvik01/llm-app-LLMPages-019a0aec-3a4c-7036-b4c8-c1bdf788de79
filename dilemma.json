@@ -1,0 +1,11 @@
+{
+  "people": 4,
+  "case_1": {
+    "swerve": true,
+    "reason": "To minimize the total loss of life. Hitting 1 person is less severe than hitting 2."
+  },
+  "case_2": {
+    "swerve": true,
+    "reason": "Prioritizing the life of an innocent child. While an autonomous vehicle should ideally not make qualitative judgments about human value, in a forced choice scenario, protecting a vulnerable innocent life is generally favored over individuals who have actively engaged in criminal behavior. This is a complex ethical decision often debated in human ethics."
+  }
+}
