@@ -1,0 +1,28 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Bicycle Frame -->
+  <circle cx="50" cy="150" r="20" fill="none" stroke="black" stroke-width="5"/>
+  <circle cx="150" cy="150" r="20" fill="none" stroke="black" stroke-width="5"/>
+  <line x1="50" y1="150" x2="150" y2="150" stroke="black" stroke-width="5"/>
+  <line x1="50" y1="150" x2="70" y2="100" stroke="black" stroke-width="5"/>
+  <line x1="70" y1="100" x2="150" y2="100" stroke="black" stroke-width="5"/>
+  <line x1="150" y1="150" x2="150" y2="100" stroke="black" stroke-width="5"/>
+  <line x1="70" y1="100" x2="80" y2="80" stroke="black" stroke-width="5"/>
+  <circle cx="80" cy="80" r="5" fill="black"/> <!-- Seat post connection -->
+
+  <!-- Pelican Body -->
+  <path d="M 80 80 C 85 40, 140 40, 145 80 S 130 130, 80 130 C 70 130, 70 80, 80 80 Z" fill="#ADD8E6" stroke="black" stroke-width="2"/> <!-- Body -->
+  <circle cx="110" cy="60" r="10" fill="white" stroke="black" stroke-width="1"/> <!-- Eye background -->
+  <circle cx="112" cy="60" r="3" fill="black"/> <!-- Pupil -->
+
+  <!-- Pelican Beak -->
+  <path d="M 120 70 L 170 80 L 120 90 Z" fill="orange" stroke="black" stroke-width="2"/> <!-- Upper beak -->
+  <path d="M 170 80 L 160 100 L 120 90 Z" fill="orange" stroke="black" stroke-width="2"/> <!-- Lower beak (pouch) -->
+
+  <!-- Pelican Legs (simplified, connecting to pedals) -->
+  <line x1="90" y1="120" x2="85" y2="140" stroke="black" stroke-width="3"/>
+  <line x1="100" y1="120" x2="105" y2="140" stroke="black" stroke-width="3"/>
+  
+  <!-- Pedals -->
+  <circle cx="85" cy="140" r="3" fill="gray"/>
+  <circle cx="105" cy="140" r="3" fill="gray"/>
+</svg>
